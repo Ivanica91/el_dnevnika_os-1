@@ -1,0 +1,83 @@
+2024-03-30T00:22:55.050+01:00  WARN 18088 --- [el_dnevnika_os-1] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m53s806ms411µs500ns).
+2024-03-30T00:36:28.102+01:00  INFO 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-3] c.i.d.controllers.NastavnikController    : Pokrenuta je metoda Nastavnik
+2024-03-30T00:38:06.779+01:00  WARN 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('j' (code 106)): was expecting double-quote to start field name]
+2024-03-30T00:38:20.758+01:00  WARN 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value]
+2024-03-30T00:47:32.979+01:00  WARN 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-03-30T00:47:53.969+01:00  WARN 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-03-30T00:48:32.128+01:00  WARN 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-03-30T00:48:34.294+01:00  WARN 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-03-30T01:03:27.739+01:00  WARN 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-03-30T01:03:43.000+01:00  INFO 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-8] c.i.d.controllers.UcenikController       : Pokrenuta je metoda Ucenik
+2024-03-30T01:04:20.275+01:00  INFO 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-6] c.i.d.controllers.UcenikController       : Pokrenuta je metoda Ucenik
+2024-03-30T01:04:58.682+01:00  INFO 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-10] c.i.d.controllers.UcenikController       : Pokrenuta je metoda Ucenik
+2024-03-30T01:08:49.392+01:00  WARN 18088 --- [el_dnevnika_os-1] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-03-30T01:16:56.450+01:00  INFO 18088 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-30T01:16:56.501+01:00  INFO 18088 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-30T01:16:56.509+01:00  INFO 18088 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-30T01:16:56.516+01:00  INFO 18088 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-30T01:16:59.164+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] c.i.dataaccess.ElDnevnikaOs1Application  : Starting ElDnevnikaOs1Application using Java 17.0.4.1 with PID 8832 (C:\Spring workspace IT obuka\el_dnevnika_os-1\target\classes started by User in C:\Spring workspace IT obuka\el_dnevnika_os-1)
+2024-03-30T01:16:59.170+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] c.i.dataaccess.ElDnevnikaOs1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-03-30T01:16:59.937+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-30T01:17:00.057+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 10 JPA repository interfaces.
+2024-03-30T01:17:00.630+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-30T01:17:00.647+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-30T01:17:00.648+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-30T01:17:00.729+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-30T01:17:00.729+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1499 ms
+2024-03-30T01:17:01.366+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-30T01:17:01.412+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-30T01:17:01.798+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@460f1cdb
+2024-03-30T01:17:01.801+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-30T01:17:03.724+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-30T01:17:04.138+01:00  WARN 8832 --- [el_dnevnika_os-1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-30T01:17:04.650+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-30T01:17:04.669+01:00  INFO 8832 --- [el_dnevnika_os-1] [main] c.i.dataaccess.ElDnevnikaOs1Application  : Started ElDnevnikaOs1Application in 5.988 seconds (process running for 6.805)
+2024-03-30T01:25:26.673+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-30T01:25:26.673+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-30T01:25:26.675+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-30T01:25:26.703+01:00  WARN 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-03-30T01:25:40.850+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-3] c.i.d.controllers.RoditeljController     : Pokrenuta je metoda Roditelj
+2024-03-30T01:26:15.238+01:00  WARN 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries]
+2024-03-30T01:26:51.476+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-6] c.i.d.controllers.RoditeljController     : Pokrenuta je metoda Roditelj
+2024-03-30T01:27:34.318+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-7] c.i.d.controllers.RoditeljController     : Pokrenuta je metoda Roditelj
+2024-03-30T01:28:25.452+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-8] c.i.d.controllers.RoditeljController     : Pokrenuta je metoda Roditelj
+2024-03-30T01:31:44.938+01:00  WARN 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.iktpreobuka.dataaccess.entities.RoditeljEntity com.iktpreobuka.dataaccess.controllers.RoditeljController.updateRoditelj(com.iktpreobuka.dataaccess.entities.RoditeljEntity,int)]
+2024-03-30T01:40:03.825+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-10] c.i.d.controllers.PredmetController      : Pokrenuta je metoda Predmet
+2024-03-30T01:40:40.115+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-2] c.i.d.controllers.PredmetController      : Pokrenuta je metoda Predmet
+2024-03-30T01:40:56.548+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-1] c.i.d.controllers.PredmetController      : Pokrenuta je metoda Predmet
+2024-03-30T01:41:05.247+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-3] c.i.d.controllers.PredmetController      : Pokrenuta je metoda Predmet
+2024-03-30T01:41:35.853+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-4] c.i.d.controllers.PredmetController      : Pokrenuta je metoda Predmet
+2024-03-30T01:41:47.220+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-5] c.i.d.controllers.PredmetController      : Pokrenuta je metoda Predmet
+2024-03-30T01:53:27.399+01:00  WARN 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value]
+2024-03-30T01:53:34.852+01:00  WARN 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in name]
+2024-03-30T01:53:44.645+01:00  WARN 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): expected a value]
+2024-03-30T01:54:04.745+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-10] c.i.d.controllers.OcenaController        : Pokrenuta je metoda Ocena
+2024-03-30T01:54:21.210+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-1] c.i.d.controllers.OcenaController        : Pokrenuta je metoda Ocena
+2024-03-30T01:54:31.631+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-3] c.i.d.controllers.OcenaController        : Pokrenuta je metoda Ocena
+2024-03-30T01:54:39.079+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-4] c.i.d.controllers.OcenaController        : Pokrenuta je metoda Ocena
+2024-03-30T01:54:46.702+01:00  INFO 8832 --- [el_dnevnika_os-1] [http-nio-8080-exec-5] c.i.d.controllers.OcenaController        : Pokrenuta je metoda Ocena
+2024-03-30T01:59:18.082+01:00  INFO 8832 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-30T01:59:18.103+01:00  INFO 8832 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-30T01:59:18.105+01:00  INFO 8832 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-30T01:59:18.111+01:00  INFO 8832 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-30T01:59:20.621+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] c.i.dataaccess.ElDnevnikaOs1Application  : Starting ElDnevnikaOs1Application using Java 17.0.4.1 with PID 11840 (C:\Spring workspace IT obuka\el_dnevnika_os-1\target\classes started by User in C:\Spring workspace IT obuka\el_dnevnika_os-1)
+2024-03-30T01:59:20.629+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] c.i.dataaccess.ElDnevnikaOs1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-03-30T01:59:21.377+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-30T01:59:21.479+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 10 JPA repository interfaces.
+2024-03-30T01:59:22.028+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-30T01:59:22.043+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-30T01:59:22.043+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-30T01:59:22.121+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-30T01:59:22.122+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1433 ms
+2024-03-30T01:59:22.694+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-30T01:59:22.733+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-30T01:59:23.079+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@460f1cdb
+2024-03-30T01:59:23.082+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-30T01:59:24.854+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-30T01:59:25.252+01:00  WARN 11840 --- [el_dnevnika_os-1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-30T01:59:25.766+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-30T01:59:25.781+01:00  INFO 11840 --- [el_dnevnika_os-1] [main] c.i.dataaccess.ElDnevnikaOs1Application  : Started ElDnevnikaOs1Application in 5.62 seconds (process running for 6.406)
+2024-03-30T02:00:12.520+01:00  INFO 11840 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-30T02:00:12.545+01:00  INFO 11840 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-30T02:00:12.548+01:00  INFO 11840 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-30T02:00:12.559+01:00  INFO 11840 --- [el_dnevnika_os-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
